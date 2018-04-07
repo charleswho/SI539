@@ -117,12 +117,20 @@ header ul li .current {
     opacity: 0.8;
 }
 
+.content .overview a{
+    color: white;
+}
+
+.content .overview a:hover{
+    text-decoration: none;
+}
+
 .content .container {
     padding: 3em;
 }
 
 .content div.shijing {
-    background-color: beige;
+    background-color: #eeeeee;
 }
 
 .content .title {
