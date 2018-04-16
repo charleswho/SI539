@@ -1,0 +1,30 @@
+<!DOCTYPE html>	
+<html lang="en">
+<head>
+	<title>exam2</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    
+	<!--Style-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" >
+
+	<script>
+    function hide(){
+        document.getElementById("family").style.display = 'none';
+        document.getElementById("logo").style.marginLeft = "25%";
+    }
+        
+    function show(){
+        document.getElementById("family").style.display = 'inline-block';
+        document.getElementById("logo").style.marginLeft = "0";
+    }
+    </script>
+</head>
+<body>
+    <h1>Xusheng Hu</h1>
+	<div>
+        <img id="family" alt="family" src="images/examPic.JPG"/><img id="logo" alt="University of Michigan Logo" src="images/UMSI-logo.jpg"/>		
+	</div>
+    <button id="hide" onclick="hide()">Hide Image</button><button id="show" onclick="show()">Show Image</button>
+</body>
+</html>
