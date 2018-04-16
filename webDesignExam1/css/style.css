@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-image: url(../images/back.png);
+}
+
+div{
+    width: 100%;
+}
+
+img{
+    border: 5px solid blue;
+    box-sizing: border-box;
+    padding: 5%;
+    width: 50%;
+    display: inline-block;
+}
